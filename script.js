@@ -1,5 +1,6 @@
-let n1 = 10;
-let n2 = 30;
-const soma = n1 + n2;
+const prompt = require("prompt-sync")();
 
-console.log(soma);
+const n1 = Number(prompt("Digite o primeiro número: "));
+const n2 = Number(prompt("Digite o segundo número: "));
+
+console.log(`A soma deles é: ${n1 + n2}`) 
