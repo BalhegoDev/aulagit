@@ -4,4 +4,4 @@ function retornaElementos(array){
     }
 }
 
-retornaElementos(["abacaxi",4,7,6,4,"alfredo"])
+retornaElementos(["abacaxi",4,7,6,4,"alfredo", "adriano"])
